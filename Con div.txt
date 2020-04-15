@@ -1,0 +1,44 @@
+ <div class="teclas">
+            <div class="numeros">
+                <div>
+                    <button id="numero1">1</button>
+                    <button id="numero2">2</button>
+                    <button id="numero3">3</button>
+                </div>
+                <div>
+                    <button id="numero4">4</button>
+                    <button id="numero5">5</button>
+                    <button id="numero6">6</button>
+                </div>
+                <div>
+                    <button id="numero7">7</button>
+                    <button id="numero8">8</button>
+                    <button id="numero9">9</button>
+                </div>
+                <div>
+                    <button id="numero0">0</button>
+                </div>
+            </div>
+
+            <div class="operaciones">
+                <div>
+                    <button id="suma">+</button>
+                    <button id="resta">-</button>
+                    <button id="porcentaje">%</button>
+                </div>
+                <div>
+                    <button id="producto">x</button>
+                    <button id="raiz">v</button>
+                    <button id="divicion">/</button>
+                </div>
+                <div class="punto">
+                    <button id="punto">.</button>
+                </div>
+            </div>
+            <div class="resetear">
+                <button id="eliminar">CE</button>
+            </div>
+            <div class="igual">
+                <button id="res">=</button>
+            </div>
+        </div>

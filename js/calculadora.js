@@ -22,6 +22,7 @@ for (let i = 0; i < operaciones.length; i++) {
 document.getElementById("res").addEventListener("click", igual);
 document.getElementById("eliminar").addEventListener("click", eliminar);
 document.getElementById("punto").addEventListener("click", punto);
+document.getElementById("limpiar").addEventListener("click",limpiar);
 
 function punto() {
     let operacionActual = document.getElementById("resultado").innerHTML;
@@ -72,4 +73,8 @@ function eliminar() {
     let actual = document.getElementById("resultado").innerHTML;
     let resultado = actual.slice(0, -1);
     pantalla.innerHTML = resultado;
+}
+
+function limpiar(){
+    pantalla.innerHTML="";
 }

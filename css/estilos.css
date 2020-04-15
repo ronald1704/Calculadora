@@ -11,19 +11,14 @@
     border-radius: 10px;
 }
 
-.teclas {
-    display: flex;
-}
-
 .igual {
-    padding: 10px;
     margin-left: 50px;
 }
 
 .igual button {
-    width: 90%;
-    height: 50%;
-    text-align: center;
+    border: 0px;
+    background-color: #fff;
+    border-radius: 50px;
 }
 
 .igual button:hover {
@@ -45,32 +40,13 @@
     background-color: rgba(0, 68, 255, 0.281);
 }
 
-.operaciones {
-    text-align: center;
-    padding: 11px 11px 11px 4px;
-    height: 15px;
-}
-
-.operaciones button {
-    padding: 15px;
-}
-
-.operaciones button:hover {
-    box-shadow: 0px 0px 12px #aaaaaa;
-}
-
-.numeros div {
-    text-align: center;
-    padding: 5px 5px 0px 5px;
-}
-
-.numeros button {
+.teclas button {
     border: 0px;
     background-color: #fff;
     border-radius: 50px;
 }
 
-.numeros button:hover {
+.teclas button:hover {
     box-shadow: 0px 0px 12px #aaaaaa;
 }
 
@@ -81,10 +57,10 @@ button {
     font-size: 19px;
 }
 
-.resetear {
-    display: block;
-    margin-top: 134px;
-    margin-left: -90px;
+.resetear button{
+    border: 0px;
+    background-color: #fff;
+    border-radius: 50px;
 }
 
 .resetear button:hover {
@@ -94,6 +70,12 @@ button {
 .punto {
     margin-top: 3px;
     margin-left: -60px;
+}
+
+.punto button{
+    border: 0px;
+    background-color: #fff;
+    border-radius: 50px;
 }
 
 .punto button:hover {

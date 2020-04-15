@@ -9,54 +9,45 @@
 
 <body>
 
-    <div class="contenedor">
+    <div class="contenedor">        
         <div class="display">
             <div id="resultado"></div>
         </div>
-        <div class="teclas">
-            <div class="numeros">
-                <div>
-                    <button id="numero1">1</button>
-                    <button id="numero2">2</button>
-                    <button id="numero3">3</button>
-                </div>
-                <div>
-                    <button id="numero4">4</button>
-                    <button id="numero5">5</button>
-                    <button id="numero6">6</button>
-                </div>
-                <div>
-                    <button id="numero7">7</button>
-                    <button id="numero8">8</button>
-                    <button id="numero9">9</button>
-                </div>
-                <div>
-                    <button id="numero0">0</button>
-                </div>
-            </div>
 
-            <div class="operaciones">
-                <div>
-                    <button id="suma">+</button>
-                    <button id="resta">-</button>
-                    <button id="porcentaje">%</button>
-                </div>
-                <div>
-                    <button id="producto">x</button>
-                    <button id="raiz">√</button>
-                    <button id="divicion">/</button>
-                </div>
-                <div class="punto">
-                    <button id="punto">.</button>
-                </div>
-            </div>
-            <div class="resetear">
-                <button id="eliminar">CE</button>
-            </div>
-            <div class="igual">
-                <button id="res">=</button>
-            </div>
-        </div>
+        <table>
+            <tr  class="teclas">
+                <th><button id="numero7">7</button></th>
+                <th><button id="numero8">8</button></th>
+                <th><button id="numero9">9</button></th>
+                <th><button id="suma">+</button></th>
+                <th><button id="porcentaje">%</button></th>
+            </tr>
+
+            <tr  class="teclas">
+                <th><button id="numero4">4</button></th>
+                <th><button id="numero5">5</button></th>
+                <th><button id="numero6">6</button></th>
+                <th><button id="resta">-</button></th>
+                <th><button id="raiz">√</button></th>
+            </tr>
+
+            <tr  class="teclas">
+                <th><button id="numero1">1</button></th>
+                <th><button id="numero2">2</button></th>
+                <th><button id="numero3">3</button></th>
+                <th class="operaciones"><button id="producto">x</button></th>
+                <th  class="teclas"><button id="divicion">/</button></th>
+                
+            </tr>
+
+            <tr>
+            <th  class="teclas"><button id="numero0">0</button></th>
+            <th class="punto"><button id="punto">.</button></th>
+            <th class="resetear"><button id="eliminar">CE</button></th>
+            <th class="resetear"><button id="limpiar">C</button></th>
+            <th class="igual"><button id="res">=</button></th>
+            </tr>
+        </table>
     </div>
     <script src="js/calculadora.js"></script>
 </body>
